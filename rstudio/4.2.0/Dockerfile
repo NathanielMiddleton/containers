@@ -1,6 +1,6 @@
 FROM rocker/rstudio:4.2.0
 
-LABEL org.opencontainers.image.authors="AIITO <!ITSupport@alleninstitute.org>"
+LABEL org.opencontainers.image.authors="Nathaniel Middleton"
 LABEL description="Run RStudio in a container"
 
 RUN apt-get clean all && \
