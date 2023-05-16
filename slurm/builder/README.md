@@ -21,11 +21,6 @@ rpmbuild -ba slurm.spec --with slurmrestd --with lua --with hdf5 --with mysql
 Distribute rpms from rpmbuilder/RPMS to repo
 
 
-Improvements
-------------
-This container could auto build RPMs with more time and effort
-Un-hardcode versions to support multiple slurm versions
-
 Author Information
 ------------------
 
